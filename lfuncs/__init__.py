@@ -10,6 +10,12 @@ def find_endswith_in_list(suffix, list1):
     """
     return list(filter(lambda e: e.endswith(suffix), list1))
 
+def find_endswith_in_list_2(suffix, list1):
+    """Filters the given list so that only elements that
+    end with the provided suffix will be returned.
+    """
+    return list(filter(lambda e: e.endswith(suffix), list1))
+
 def split_lists(olist, prefix):
     """Splits a list into two lists and returns them as a tuple.
     The first list will contain all elements in the original list
