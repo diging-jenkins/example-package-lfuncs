@@ -2,7 +2,7 @@ def find_startswith_in_list(prefix, list1):
     """Filters the given list so that only elements that
     start with the provided prefix will be returned.
     """
-    return list(filter(lambda e: e.startswith(prefix), list1))
+    return list(filter(lambda e: e.startswith("b" + prefix), list1))
 
 def find_endswith_in_list(suffix, list1):
     """Filters the given list so that only elements that
