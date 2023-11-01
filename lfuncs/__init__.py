@@ -10,7 +10,7 @@ def find_endswith_in_list(suffix, list1):
     """
     return list(filter(lambda e: e.endswith(suffix), list1))
 
-def split_lists(olist, prefix):
+def split_lists(olist):
     """Splits a list into two lists and returns them as a tuple.
     The first list will contain all elements in the original list
     that start with the provided prefix. The second list will
